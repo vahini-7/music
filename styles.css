@@ -1,0 +1,65 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.controls button {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 5px;
+  background: #555;
+  cursor: pointer;
+  position: relative;
+}
+
+#progress {
+  height: 100%;
+  background: #1db954;
+  width: 0%;
+}
+
+.volume-container {
+  margin: 10px 0;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.playlist li:hover {
+  background: #333;
+}
